@@ -1,0 +1,37 @@
+
+.wuy-top-logo-container
+{
+  width: 200px;
+  position: absolute;
+  left: 50%;
+  margin-left: -100px;
+  top: 32px;
+  z-index: 900000;
+  text-align: center;
+}
+
+.wuy-links a:hover
+{
+  text-decoration: underline;
+}
+
+.wuy-policy {
+  padding-left: 3em !important;
+}
+
+@media (max-width: 991px) {
+  .wuy-policy {
+    padding-left: 0 !important;
+  }
+}
+
+.wuy_app_icon
+{
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 30px auto;
+  background-size: 98px 98px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
