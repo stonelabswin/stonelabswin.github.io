@@ -79,17 +79,17 @@ function getAllAppInfoList()
 
     */
 
-    // App 1. demo app.
-    var winDemo = new AppInfo();
-    winDemo.name      = ".";
-    winDemo.appid     = "YYYYYYYYYY";
-    winDemo.icon      = "yyyyy";
-    winDemo.intro     = ".";
-    winDemo.desc      = "";
-    winDemo.lines     = 0;
+    // App 1. Templates for MS Office 2024 (Windows app)
+    var winTemplates4MSOffice = new AppInfo();
+    winTemplates4MSOffice.name      = "Templates for MS Office 2024";      // App name
+    winTemplates4MSOffice.appid     = "9NMD6JTC5J7N";                      // Your app or product id (windows 10 app).
+    winTemplates4MSOffice.icon      = "templates4mso";                     // App icon name(without extension)
+    winTemplates4MSOffice.intro     = "A bundle of templates for Office";  // App introduction
+    winTemplates4MSOffice.desc      = "NOT USED";   // **NOT USED**: App detailed description
+    winTemplates4MSOffice.lines     = 0;            // 0, 1, 2. Extra lines.
 
     // Add to list
-    allAppsList.push(winDemo);        // winDemo
+    allAppsList.push(winTemplates4MSOffice);        // winTemplates4MSOffice
 
     // return this list
     return allAppsList;
